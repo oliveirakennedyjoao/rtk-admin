@@ -1,7 +1,11 @@
-import "./App.css";
+import { AppTemplate } from "./components";
 
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <AppTemplate>
+      <h1>Hello World!</h1>
+    </AppTemplate>
+  );
 }
 
 export default App;
