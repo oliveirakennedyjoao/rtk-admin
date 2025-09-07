@@ -1,6 +1,6 @@
-import { Routes, Route, Navigate, Outlet } from "react-router";
+import { Routes, Route, Outlet } from "react-router";
 import { AppTemplate } from "./components";
-import { UsersView } from "./pages";
+import { NotFoundView, UsersListView, UsersShowView } from "./pages";
 
 function App() {
   return (
@@ -12,8 +12,11 @@ function App() {
           </AppTemplate>
         }
       >
-        <Route path="/users" element={<UsersView />} />
-        <Route path="*" element={<Navigate to="/users" replace />} />
+        <Route path="/users">
+          <Route index element={<UsersListView />} />
+          <Route path=":id" element={<UsersShowView />} />
+        </Route>
+        <Route path="*" element={<NotFoundView />} />
       </Route>
     </Routes>
   );

@@ -23,9 +23,13 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
 import type { ReactNode } from "react";
+import { useNavigate } from "react-router";
+
+// Icons
+
+import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
+import CallToActionOutlinedIcon from "@mui/icons-material/CallToActionOutlined";
 
 const drawerWidth = 240;
 
@@ -118,6 +122,7 @@ interface AppTemplateProps {
 export default function AppTemplate({ children }: AppTemplateProps) {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
+  const navigate = useNavigate();
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -164,7 +169,12 @@ export default function AppTemplate({ children }: AppTemplateProps) {
         <Divider />
         <List>
           {["Dashboard", "Users"].map((text, index) => (
-            <ListItem key={text} disablePadding sx={{ display: "block" }}>
+            <ListItem
+              key={text}
+              disablePadding
+              sx={{ display: "block" }}
+              onClick={() => navigate(`/${text.toLowerCase()}`)}
+            >
               <ListItemButton
                 sx={[
                   {
@@ -195,7 +205,11 @@ export default function AppTemplate({ children }: AppTemplateProps) {
                         },
                   ]}
                 >
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                  {index % 2 === 0 ? (
+                    <CallToActionOutlinedIcon />
+                  ) : (
+                    <PersonOutlineOutlinedIcon />
+                  )}
                 </ListItemIcon>
                 <ListItemText
                   primary={text}
