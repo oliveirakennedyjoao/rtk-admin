@@ -4,7 +4,14 @@ RTK ADMIN é um projeto criado para validar as funcionalidades do Redux ToolKit,
 
 ## Tecnologias
 
-Este projeto faz uso das seguintes libs para sua construção: - React (UI Lib) - RTK Query (Data Cache) - MSW (Mock Http Requests) - Axios (Http Client) - Mui (UI kit) - Vite (Bundler)
+Este projeto faz uso das seguintes libs para sua construção:
+
+- React (UI Lib)
+- RTK Query (Data Cache)
+- MSW (Mock Http Requests)
+- Axios (Http Client)
+- Mui (UI kit)
+- Vite (Bundler)
 
 ## Instalação
 
