@@ -1,9 +1,10 @@
 import { AppTemplate } from "./components";
+import { UsersView } from "./pages";
 
 function App() {
   return (
     <AppTemplate>
-      <h1>Hello World!</h1>
+      <UsersView />
     </AppTemplate>
   );
 }

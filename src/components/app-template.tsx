@@ -214,7 +214,14 @@ export default function AppTemplate({ children }: AppTemplateProps) {
           ))}
         </List>
       </Drawer>
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+      <Box
+        component="main"
+        sx={{
+          width: `calc(100vw - ${drawerWidth}px)`,
+          flexGrow: 1,
+          p: 4,
+        }}
+      >
         <DrawerHeader />
         {children}
       </Box>
