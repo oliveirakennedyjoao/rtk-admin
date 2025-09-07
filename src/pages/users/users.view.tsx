@@ -36,6 +36,7 @@ export default function UsersView() {
             <TableRow
               key={user.id}
               sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+              onClick={() => alert(`User ID: ${user.id}`)}
             >
               <TableCell align="right">{user.id}</TableCell>
               <TableCell align="right">{user.name}</TableCell>
