@@ -3,6 +3,7 @@ import { AppTemplate } from "./components";
 import {
   NotFoundView,
   ProductsListPage,
+  UsersCreateView,
   UsersListView,
   UsersShowView,
 } from "./pages";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/users">
           <Route index element={<UsersListView />} />
           <Route path=":id" element={<UsersShowView />} />
+          <Route path="create" element={<UsersCreateView />} />
         </Route>
         <Route path="/products">
           <Route index element={<ProductsListPage />} />

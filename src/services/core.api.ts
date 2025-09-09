@@ -12,7 +12,17 @@ export const coreApi = createApi({
     getUserById: builder.query<User, string>({
       query: (id) => `users/${id}`,
     }),
+    createUser: builder.mutation<User, Partial<User>>({
+      query: (user) => ({
+        url: "users",
+        method: "POST",
+        body: user,
+      }),
+    }),
   }),
 });
 
-export const { useGetUsersQuery, useGetUserByIdQuery } = coreApi;
+export const { useGetUsersQuery, useGetUserByIdQuery, useCreateUserMutation } =
+  coreApi;
+
+export default coreApi;

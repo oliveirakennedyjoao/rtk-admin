@@ -14,6 +14,12 @@ const usersHandler = [
       return HttpResponse.json({ message: "User not found" }, { status: 404 });
     }
   }),
+  http.post("/api/users", async ({ request }) => {
+    const newUser = await request.clone().json();
+    newUser.id = users.length + 1;
+    users.push(newUser);
+    return HttpResponse.json(newUser, { status: 201 });
+  }),
 ];
 
 export default usersHandler;

@@ -1,4 +1,4 @@
-import { Box, Paper } from "@mui/material";
+import { Box, Button, Paper, Stack } from "@mui/material";
 import { useGetUsersQuery } from "../../services";
 
 import Table from "@mui/material/Table";
@@ -9,6 +9,8 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import type { User } from "../../model";
 import { Outlet, useNavigate } from "react-router";
+
+import AddIcon from "@mui/icons-material/Add";
 
 export default function UsersListView() {
   const navigate = useNavigate();
@@ -24,7 +26,16 @@ export default function UsersListView() {
   }
 
   return (
-    <Box>
+    <Stack spacing={2}>
+      <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
+        <Button
+          startIcon={<AddIcon />}
+          variant="contained"
+          onClick={() => navigate("/users/create")}
+        >
+          Create User
+        </Button>
+      </Box>
       <TableContainer component={Paper}>
         <Table sx={{ width: "100%" }} aria-label="simple table">
           <TableHead>
@@ -52,6 +63,6 @@ export default function UsersListView() {
         </Table>
       </TableContainer>
       <Outlet />
-    </Box>
+    </Stack>
   );
 }
