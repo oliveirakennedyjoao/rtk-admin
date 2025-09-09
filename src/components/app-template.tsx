@@ -168,7 +168,7 @@ export default function AppTemplate({ children }: AppTemplateProps) {
         </DrawerHeader>
         <Divider />
         <List>
-          {["Dashboard", "Users"].map((text, index) => (
+          {["Dashboard", "Users", "Products"].map((text, index) => (
             <ListItem
               key={text}
               disablePadding

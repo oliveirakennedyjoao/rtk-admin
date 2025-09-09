@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "Cadeira Ergonômica",
+    "price": 599.99,
+    "description": "Cadeira confortável com ajuste lombar e apoio para braços.",
+    "category": "Móveis"
+  },
+  {
+    "id": 2,
+    "name": "Mesa de Escritório",
+    "price": 899.9,
+    "description": "Mesa espaçosa em madeira com acabamento premium.",
+    "category": "Móveis"
+  },
+  {
+    "id": 3,
+    "name": "Notebook 15\" Pro",
+    "price": 3499.0,
+    "description": "Notebook potente com processador i7 e 16GB de RAM.",
+    "category": "Informática"
+  },
+  {
+    "id": 4,
+    "name": "Mouse Sem Fio",
+    "price": 79.9,
+    "description": "Mouse óptico sem fio com alta precisão.",
+    "category": "Acessórios"
+  },
+  {
+    "id": 5,
+    "name": "Teclado Mecânico",
+    "price": 299.99,
+    "description": "Teclado mecânico com iluminação RGB.",
+    "category": "Acessórios"
+  },
+  {
+    "id": 6,
+    "name": "Monitor 24\" Full HD",
+    "price": 799.0,
+    "description": "Monitor LED com resolução Full HD e bordas finas.",
+    "category": "Informática"
+  },
+  {
+    "id": 7,
+    "name": "Fone de Ouvido Bluetooth",
+    "price": 199.9,
+    "description": "Fone sem fio com cancelamento de ruído.",
+    "category": "Áudio"
+  },
+  {
+    "id": 8,
+    "name": "Webcam HD",
+    "price": 149.9,
+    "description": "Webcam com microfone embutido e resolução HD.",
+    "category": "Acessórios"
+  },
+  {
+    "id": 9,
+    "name": "Impressora Multifuncional",
+    "price": 499.0,
+    "description": "Impressora, scanner e copiadora em um só aparelho.",
+    "category": "Informática"
+  },
+  {
+    "id": 10,
+    "name": "HD Externo 1TB",
+    "price": 329.9,
+    "description": "HD externo portátil com 1TB de capacidade.",
+    "category": "Armazenamento"
+  },
+  {
+    "id": 11,
+    "name": "Pen Drive 64GB",
+    "price": 59.9,
+    "description": "Pen drive USB 3.0 de alta velocidade.",
+    "category": "Armazenamento"
+  },
+  {
+    "id": 12,
+    "name": "Cabo HDMI 2m",
+    "price": 29.9,
+    "description": "Cabo HDMI de alta qualidade com 2 metros.",
+    "category": "Acessórios"
+  },
+  {
+    "id": 13,
+    "name": "Carregador Universal",
+    "price": 89.9,
+    "description": "Carregador compatível com diversos dispositivos.",
+    "category": "Acessórios"
+  },
+  {
+    "id": 14,
+    "name": "Smartphone 128GB",
+    "price": 1999.0,
+    "description": "Smartphone com tela AMOLED e 128GB de armazenamento.",
+    "category": "Celulares"
+  },
+  {
+    "id": 15,
+    "name": "Tablet 10\"",
+    "price": 1299.0,
+    "description": "Tablet com tela de 10 polegadas e bateria de longa duração.",
+    "category": "Tablets"
+  },
+  {
+    "id": 16,
+    "name": "Câmera Digital",
+    "price": 899.0,
+    "description": "Câmera compacta com 20MP e zoom óptico.",
+    "category": "Fotografia"
+  },
+  {
+    "id": 17,
+    "name": "Tripé Ajustável",
+    "price": 119.9,
+    "description": "Tripé leve e ajustável para câmeras e celulares.",
+    "category": "Fotografia"
+  },
+  {
+    "id": 18,
+    "name": "Caixa de Som Bluetooth",
+    "price": 149.9,
+    "description": "Caixa de som portátil com bateria recarregável.",
+    "category": "Áudio"
+  },
+  {
+    "id": 19,
+    "name": "Relógio Smartwatch",
+    "price": 399.9,
+    "description": "Relógio inteligente com monitoramento de saúde.",
+    "category": "Wearables"
+  },
+  {
+    "id": 20,
+    "name": "Luminária de Mesa LED",
+    "price": 89.9,
+    "description": "Luminária com ajuste de intensidade e cor.",
+    "category": "Iluminação"
+  },
+  {
+    "id": 21,
+    "name": "Roteador Wi-Fi",
+    "price": 249.9,
+    "description": "Roteador dual band com alta velocidade.",
+    "category": "Redes"
+  },
+  {
+    "id": 22,
+    "name": "SSD 512GB",
+    "price": 499.0,
+    "description": "SSD de alta performance para notebooks e PCs.",
+    "category": "Armazenamento"
+  },
+  {
+    "id": 23,
+    "name": "Placa de Vídeo 4GB",
+    "price": 1299.0,
+    "description": "Placa de vídeo dedicada para jogos e design.",
+    "category": "Hardware"
+  },
+  {
+    "id": 24,
+    "name": "Cooler para Notebook",
+    "price": 69.9,
+    "description": "Base refrigerada para notebooks até 17\".",
+    "category": "Acessórios"
+  },
+  {
+    "id": 25,
+    "name": "Estabilizador de Energia",
+    "price": 199.9,
+    "description": "Estabilizador com proteção contra surtos elétricos.",
+    "category": "Energia"
+  },
+  {
+    "id": 26,
+    "name": "Filtro de Linha",
+    "price": 39.9,
+    "description": "Filtro de linha com 5 tomadas e proteção.",
+    "category": "Energia"
+  },
+  {
+    "id": 27,
+    "name": "Cadeira Gamer",
+    "price": 999.0,
+    "description": "Cadeira ergonômica para gamers com apoio lombar.",
+    "category": "Móveis"
+  },
+  {
+    "id": 28,
+    "name": "Microfone USB",
+    "price": 249.9,
+    "description": "Microfone condensador para gravações e streaming.",
+    "category": "Áudio"
+  },
+  {
+    "id": 29,
+    "name": "Hub USB 4 Portas",
+    "price": 59.9,
+    "description": "Hub USB 3.0 com 4 portas de alta velocidade.",
+    "category": "Acessórios"
+  },
+  {
+    "id": 30,
+    "name": "Projetor Portátil",
+    "price": 1499.0,
+    "description": "Projetor compacto com conexão HDMI e USB.",
+    "category": "Projetores"
+  },
+  {
+    "id": 31,
+    "name": "Cabo USB-C",
+    "price": 24.9,
+    "description": "Cabo USB-C para carregamento rápido e dados.",
+    "category": "Acessórios"
+  },
+  {
+    "id": 32,
+    "name": "Fonte ATX 500W",
+    "price": 299.9,
+    "description": "Fonte de alimentação para computadores desktop.",
+    "category": "Hardware"
+  },
+  {
+    "id": 33,
+    "name": "Memória RAM 8GB",
+    "price": 249.9,
+    "description": "Módulo de memória DDR4 para notebooks e PCs.",
+    "category": "Hardware"
+  },
+  {
+    "id": 34,
+    "name": "Placa Mãe Intel",
+    "price": 699.0,
+    "description": "Placa mãe compatível com processadores Intel.",
+    "category": "Hardware"
+  },
+  {
+    "id": 35,
+    "name": "Processador Ryzen 5",
+    "price": 1199.0,
+    "description": "Processador AMD Ryzen 5 de última geração.",
+    "category": "Hardware"
+  },
+  {
+    "id": 36,
+    "name": "Gabinete Gamer",
+    "price": 399.9,
+    "description": "Gabinete com lateral em vidro temperado e LEDs.",
+    "category": "Hardware"
+  },
+  {
+    "id": 37,
+    "name": "Ventoinha RGB",
+    "price": 59.9,
+    "description": "Ventoinha para gabinete com iluminação RGB.",
+    "category": "Hardware"
+  },
+  {
+    "id": 38,
+    "name": "Controle Xbox",
+    "price": 349.9,
+    "description": "Controle sem fio compatível com Xbox e PC.",
+    "category": "Games"
+  },
+  {
+    "id": 39,
+    "name": "Volante para PC",
+    "price": 799.0,
+    "description": "Volante com pedais para jogos de corrida.",
+    "category": "Games"
+  },
+  {
+    "id": 40,
+    "name": "Câmera de Segurança Wi-Fi",
+    "price": 299.9,
+    "description": "Câmera IP com visão noturna e detecção de movimento.",
+    "category": "Segurança"
+  },
+  {
+    "id": 41,
+    "name": "Smart TV 43\"",
+    "price": 2299.0,
+    "description": "Smart TV com resolução 4K e aplicativos integrados.",
+    "category": "TVs"
+  },
+  {
+    "id": 42,
+    "name": "Chromecast",
+    "price": 299.9,
+    "description": "Dispositivo para streaming de mídia na TV.",
+    "category": "TVs"
+  },
+  {
+    "id": 43,
+    "name": "Aspirador Robô",
+    "price": 1299.0,
+    "description": "Aspirador inteligente com sensores antiqueda.",
+    "category": "Casa"
+  },
+  {
+    "id": 44,
+    "name": "Balança Digital",
+    "price": 99.9,
+    "description": "Balança com medição de peso e IMC.",
+    "category": "Casa"
+  },
+  {
+    "id": 45,
+    "name": "Echo Dot",
+    "price": 349.9,
+    "description": "Alto-falante inteligente com assistente virtual.",
+    "category": "Casa"
+  },
+  {
+    "id": 46,
+    "name": "Kindle",
+    "price": 499.0,
+    "description": "Leitor de livros digitais com tela antirreflexo.",
+    "category": "Leitura"
+  },
+  {
+    "id": 47,
+    "name": "Carregador Veicular",
+    "price": 39.9,
+    "description": "Carregador rápido para automóveis com duas portas USB.",
+    "category": "Acessórios"
+  },
+  {
+    "id": 48,
+    "name": "Suporte para Celular",
+    "price": 29.9,
+    "description": "Suporte ajustável para celular em mesas e carros.",
+    "category": "Acessórios"
+  },
+  {
+    "id": 49,
+    "name": "Cabo Lightning",
+    "price": 49.9,
+    "description": "Cabo compatível com dispositivos Apple.",
+    "category": "Acessórios"
+  },
+  {
+    "id": 50,
+    "name": "Power Bank 10.000mAh",
+    "price": 129.9,
+    "description": "Bateria portátil para recarga de dispositivos móveis.",
+    "category": "Acessórios"
+  }
+]
